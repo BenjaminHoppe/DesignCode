@@ -13,6 +13,7 @@
 		7E559A97246848EA00023451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E559A96246848EA00023451 /* Assets.xcassets */; };
 		7E559A9A246848EA00023451 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E559A99246848EA00023451 /* Preview Assets.xcassets */; };
 		7E559A9D246848EA00023451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E559A9B246848EA00023451 /* LaunchScreen.storyboard */; };
+		7EA13D31246C1F2300CC1D34 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA13D30246C1F2300CC1D34 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E559A99246848EA00023451 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E559A9C246848EA00023451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E559A9E246848EA00023451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA13D30246C1F2300CC1D34 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7E559A90246848E900023451 /* AppDelegate.swift */,
 				7E559A92246848E900023451 /* SceneDelegate.swift */,
 				7E559A94246848E900023451 /* ContentView.swift */,
+				7EA13D30246C1F2300CC1D34 /* MenuView.swift */,
 				7E559A96246848EA00023451 /* Assets.xcassets */,
 				7E559A9B246848EA00023451 /* LaunchScreen.storyboard */,
 				7E559A9E246848EA00023451 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E559A91246848E900023451 /* AppDelegate.swift in Sources */,
+				7EA13D31246C1F2300CC1D34 /* MenuView.swift in Sources */,
 				7E559A93246848E900023451 /* SceneDelegate.swift in Sources */,
 				7E559A95246848E900023451 /* ContentView.swift in Sources */,
 			);
