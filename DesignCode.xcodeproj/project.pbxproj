@@ -19,10 +19,11 @@
 		7ED50EF8246E10B700DB369A /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EF7246E10B700DB369A /* UpdateList.swift */; };
 		7ED50EFA246E168A00DB369A /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EF9246E168A00DB369A /* UpdateDetail.swift */; };
 		7ED50EFC246E19D600DB369A /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EFB246E19D600DB369A /* UpdateStore.swift */; };
+		7ED50EFE246E1EBA00DB369A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EFD246E1EBA00DB369A /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E559A8D246848E900023451 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E559A8D246848E900023451 /* Design + Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design + Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E559A90246848E900023451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E559A92246848E900023451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7E559A94246848E900023451 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		7ED50EF7246E10B700DB369A /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		7ED50EF9246E168A00DB369A /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		7ED50EFB246E19D600DB369A /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		7ED50EFD246E1EBA00DB369A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 		7E559A8E246848E900023451 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E559A8D246848E900023451 /* DesignCode.app */,
+				7E559A8D246848E900023451 /* Design + Code.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +79,7 @@
 				7ED50EF7246E10B700DB369A /* UpdateList.swift */,
 				7ED50EF9246E168A00DB369A /* UpdateDetail.swift */,
 				7ED50EFB246E19D600DB369A /* UpdateStore.swift */,
+				7ED50EFD246E1EBA00DB369A /* TabBar.swift */,
 				7E559A96246848EA00023451 /* Assets.xcassets */,
 				7E559A9B246848EA00023451 /* LaunchScreen.storyboard */,
 				7E559A9E246848EA00023451 /* Info.plist */,
@@ -110,7 +113,7 @@
 			);
 			name = DesignCode;
 			productName = DesignCode;
-			productReference = 7E559A8D246848E900023451 /* DesignCode.app */;
+			productReference = 7E559A8D246848E900023451 /* Design + Code.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,6 +176,7 @@
 				7EC41F90246D6CCA00B25634 /* HomeView.swift in Sources */,
 				7E559A93246848E900023451 /* SceneDelegate.swift in Sources */,
 				7E559A95246848E900023451 /* ContentView.swift in Sources */,
+				7ED50EFE246E1EBA00DB369A /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = WUPY4F37K8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.benjaminhoppe.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Design + Code";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = WUPY4F37K8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.benjaminhoppe.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Design + Code";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
