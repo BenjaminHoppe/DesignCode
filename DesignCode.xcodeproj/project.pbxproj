@@ -18,6 +18,7 @@
 		7EC41F90246D6CCA00B25634 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC41F8F246D6CCA00B25634 /* HomeView.swift */; };
 		7ED50EF8246E10B700DB369A /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EF7246E10B700DB369A /* UpdateList.swift */; };
 		7ED50EFA246E168A00DB369A /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EF9246E168A00DB369A /* UpdateDetail.swift */; };
+		7ED50EFC246E19D600DB369A /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EFB246E19D600DB369A /* UpdateStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7EC41F8F246D6CCA00B25634 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7ED50EF7246E10B700DB369A /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		7ED50EF9246E168A00DB369A /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		7ED50EFB246E19D600DB369A /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				7EA13D30246C1F2300CC1D34 /* MenuView.swift */,
 				7ED50EF7246E10B700DB369A /* UpdateList.swift */,
 				7ED50EF9246E168A00DB369A /* UpdateDetail.swift */,
+				7ED50EFB246E19D600DB369A /* UpdateStore.swift */,
 				7E559A96246848EA00023451 /* Assets.xcassets */,
 				7E559A9B246848EA00023451 /* LaunchScreen.storyboard */,
 				7E559A9E246848EA00023451 /* Info.plist */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E559A91246848E900023451 /* AppDelegate.swift in Sources */,
+				7ED50EFC246E19D600DB369A /* UpdateStore.swift in Sources */,
 				7ED50EF8246E10B700DB369A /* UpdateList.swift in Sources */,
 				7EA13D31246C1F2300CC1D34 /* MenuView.swift in Sources */,
 				7ED50EFA246E168A00DB369A /* UpdateDetail.swift in Sources */,
