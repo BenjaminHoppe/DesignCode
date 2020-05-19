@@ -20,6 +20,7 @@
 		7ED50EFA246E168A00DB369A /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EF9246E168A00DB369A /* UpdateDetail.swift */; };
 		7ED50EFC246E19D600DB369A /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EFB246E19D600DB369A /* UpdateStore.swift */; };
 		7ED50EFE246E1EBA00DB369A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EFD246E1EBA00DB369A /* TabBar.swift */; };
+		7ED75DCB2471BB6100337053 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED75DCA2471BB6100337053 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		7ED50EF9246E168A00DB369A /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		7ED50EFB246E19D600DB369A /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		7ED50EFD246E1EBA00DB369A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7ED75DCA2471BB6100337053 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				7E559A90246848E900023451 /* AppDelegate.swift */,
 				7E559A92246848E900023451 /* SceneDelegate.swift */,
 				7E559A94246848E900023451 /* ContentView.swift */,
+				7ED75DCA2471BB6100337053 /* RingView.swift */,
 				7EC41F8D246D59A700B25634 /* Home.swift */,
 				7EC41F8F246D6CCA00B25634 /* HomeView.swift */,
 				7EA13D30246C1F2300CC1D34 /* MenuView.swift */,
@@ -172,6 +175,7 @@
 				7ED50EF8246E10B700DB369A /* UpdateList.swift in Sources */,
 				7EA13D31246C1F2300CC1D34 /* MenuView.swift in Sources */,
 				7ED50EFA246E168A00DB369A /* UpdateDetail.swift in Sources */,
+				7ED75DCB2471BB6100337053 /* RingView.swift in Sources */,
 				7EC41F8E246D59A700B25634 /* Home.swift in Sources */,
 				7EC41F90246D6CCA00B25634 /* HomeView.swift in Sources */,
 				7E559A93246848E900023451 /* SceneDelegate.swift in Sources */,
