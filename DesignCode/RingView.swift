@@ -15,11 +15,11 @@ struct RingView: View {
     var width: CGFloat = 88
     var height: CGFloat = 88
     var percent: CGFloat = 44
- 
+    @State var show = true
     
     var body: some View {
         let multiplier = width / 44
-        let progres = 1 - (percent / 100)
+        let progress = 1 - (percent / 100)
         
         return ZStack {
             Circle()
@@ -27,7 +27,7 @@ struct RingView: View {
                 .frame(width: width, height: height)
             
             Circle()
-                .trim(from: progres, to: 1)
+                .trim(from: progress, to: 1)
                 .stroke(
                     LinearGradient(gradient: Gradient(colors: [Color(color1), Color(color2)]), startPoint: .topTrailing, endPoint: .bottomLeading),
                     style: StrokeStyle(lineWidth: 5 * multiplier, lineCap: .round, lineJoin: .round, miterLimit: .infinity, dash: [20,0], dashPhase: 0)
