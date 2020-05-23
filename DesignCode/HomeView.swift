@@ -58,7 +58,7 @@ struct HomeView: View {
                  .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 20) {
+                    HStack(spacing: 20) { 
                         ForEach(sectionData) { item in
                             GeometryReader {
                                 geometry in

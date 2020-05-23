@@ -42,7 +42,7 @@ struct UpdateList: View {
                             
                         }
                     }
-                    .padding(.vertical, 8)
+                    .padding(.vertical, 8.0)
                 }
             }
             .onDelete { index in

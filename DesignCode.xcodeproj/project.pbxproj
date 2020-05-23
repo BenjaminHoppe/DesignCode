@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E504B5B24797AFE005A6B43 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E504B5A24797AFE005A6B43 /* Thing.swift */; };
 		7E559A91246848E900023451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E559A90246848E900023451 /* AppDelegate.swift */; };
 		7E559A93246848E900023451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E559A92246848E900023451 /* SceneDelegate.swift */; };
 		7E559A95246848E900023451 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E559A94246848E900023451 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E504B5A24797AFE005A6B43 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		7E559A8D246848E900023451 /* Design + Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design + Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E559A90246848E900023451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E559A92246848E900023451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				7E559A92246848E900023451 /* SceneDelegate.swift */,
 				7E559A94246848E900023451 /* ContentView.swift */,
 				7ED75DCA2471BB6100337053 /* RingView.swift */,
+				7E504B5A24797AFE005A6B43 /* Thing.swift */,
 				7EC41F8D246D59A700B25634 /* Home.swift */,
 				7EC41F8F246D6CCA00B25634 /* HomeView.swift */,
 				7EA13D30246C1F2300CC1D34 /* MenuView.swift */,
@@ -174,6 +177,7 @@
 				7ED50EFC246E19D600DB369A /* UpdateStore.swift in Sources */,
 				7ED50EF8246E10B700DB369A /* UpdateList.swift in Sources */,
 				7EA13D31246C1F2300CC1D34 /* MenuView.swift in Sources */,
+				7E504B5B24797AFE005A6B43 /* Thing.swift in Sources */,
 				7ED50EFA246E168A00DB369A /* UpdateDetail.swift in Sources */,
 				7ED75DCB2471BB6100337053 /* RingView.swift in Sources */,
 				7EC41F8E246D59A700B25634 /* Home.swift in Sources */,
