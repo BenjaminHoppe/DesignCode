@@ -73,6 +73,7 @@ struct CourseView: View {
     @Binding var active: Bool
     var index: Int
     @Binding var activeIndex: Int
+    @State var activeView = CGSize.zero
     
     var body: some View {
         ZStack(alignment: .top){
@@ -133,7 +134,22 @@ struct CourseView: View {
                 .background(Color(course.color))
             .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
                 .shadow(color: Color(course.color).opacity(0.3), radius: 20, x: 0, y: 20)
-          
+            .gesture(DragGesture()
+                .onChanged {
+                    value in
+                    self.activeView = value.translation
+                }
+                .onEnded {
+                    value in
+                    if self.activeView.height > 50 {
+                        self.show = false
+                        self.active = false
+                        self.activeIndex = -1
+                    }
+                    self.activeView = .zero
+                }
+            )
+                
             .onTapGesture {
                 self.show.toggle()
                 self.active.toggle()
@@ -146,6 +162,8 @@ struct CourseView: View {
         
         }
         .frame(height: show ? screen.height : 280)
+        .scaleEffect(1 - self.activeView.height / 1000)
+            .rotation3DEffect(/*@START_MENU_TOKEN@*/Angle(degrees: 90)/*@END_MENU_TOKEN@*/, axis: (x: 0, y: 10.0, z: 0))
         .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
         .edgesIgnoringSafeArea(.all)
         
