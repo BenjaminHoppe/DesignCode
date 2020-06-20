@@ -38,6 +38,7 @@
 		7E8421542479B8030025683C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E84213E2479B8030025683C /* README.txt */; };
 		7E9BA5222479DD3E00A64268 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9BA5212479DD3E00A64268 /* CourseList.swift */; };
 		7EA13D31246C1F2300CC1D34 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA13D30246C1F2300CC1D34 /* MenuView.swift */; };
+		7EBE5160249EAF5A00A7060F /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBE515F249EAF5A00A7060F /* CourseDetail.swift */; };
 		7EC41F8E246D59A700B25634 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC41F8D246D59A700B25634 /* Home.swift */; };
 		7EC41F90246D6CCA00B25634 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC41F8F246D6CCA00B25634 /* HomeView.swift */; };
 		7ED50EF8246E10B700DB369A /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED50EF7246E10B700DB369A /* UpdateList.swift */; };
@@ -81,6 +82,7 @@
 		7E84213E2479B8030025683C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		7E9BA5212479DD3E00A64268 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		7EA13D30246C1F2300CC1D34 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7EBE515F249EAF5A00A7060F /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		7EC41F8D246D59A700B25634 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7EC41F8F246D6CCA00B25634 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7ED50EF7246E10B700DB369A /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				7EC41F8D246D59A700B25634 /* Home.swift */,
 				7EC41F8F246D6CCA00B25634 /* HomeView.swift */,
 				7E9BA5212479DD3E00A64268 /* CourseList.swift */,
+				7EBE515F249EAF5A00A7060F /* CourseDetail.swift */,
 				7EA13D30246C1F2300CC1D34 /* MenuView.swift */,
 				7ED50EF7246E10B700DB369A /* UpdateList.swift */,
 				7ED50EF9246E168A00DB369A /* UpdateDetail.swift */,
@@ -291,6 +294,7 @@
 				7EC41F90246D6CCA00B25634 /* HomeView.swift in Sources */,
 				7E559A93246848E900023451 /* SceneDelegate.swift in Sources */,
 				7E559A95246848E900023451 /* ContentView.swift in Sources */,
+				7EBE5160249EAF5A00A7060F /* CourseDetail.swift in Sources */,
 				7ED50EFE246E1EBA00DB369A /* TabBar.swift in Sources */,
 				7E9BA5222479DD3E00A64268 /* CourseList.swift in Sources */,
 			);
