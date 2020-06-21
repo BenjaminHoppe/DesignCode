@@ -8,13 +8,33 @@
 
 import SwiftUI
 import Contentful
+import Combine
 
 let client = Client(spaceId: "xdv68c28p3ti", accessToken: "htsCgPs3u_0yzddGF8AtXct5WZeDVkrXASqN5tsp1eY")
 
-func getArray() {
-    let query = Query.where(contentTypeId: "course")
+func getArray(id: String, completion: @escaping([Entry])-> () ) {
+    let query = Query.where(contentTypeId: id)
     
     client.fetchArray(of: Entry.self, matching: query) { result in
-        print(result)
+        switch result {
+        case .success(let array):
+            DispatchQueue.main.async {
+                completion(array.items)
+            }
+        case.error(let error):
+            print(error)
+        }
+    }
+}
+
+class CourseStore: ObservableObject {
+    @Published var courses: [Course] = courseData
+    
+    init() {
+        getArray(id: "course") { (items) in
+            items.forEach { (item) in
+                print(item.fields["title"] as! String)
+            }
+        }
     }
 }
